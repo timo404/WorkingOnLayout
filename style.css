@@ -16,7 +16,7 @@
      /*font weight*/
      --fw-regular: 400;
      --fw-semi-bold: 500;
-     --fw-bold: 900:
+     --fw-bold: 900;
          /*font sizes*/
          --fs-300: 0.8125rem;
      --fs-400: 0.875rem;
@@ -88,7 +88,7 @@
 
  /* Make images easier to work with */
  img,
- picture. svg {
+ picture, svg {
      max-width: 100%;
      display: block;
  }
@@ -152,18 +152,21 @@
      color: var(--clt-neutral-900);
  }
 
- .fs-bold {
+ /*font weight*/
+
+ .fw-bold {
      font-weight: var(--fw-bold);
  }
 
- .fs-semi-bold {
+ .fw-semi-bold {
      font-weight: var(--fw-semi-bold);
  }
 
- .fs-regular {
+ .fw-regular {
      font-weight: var(--fw-regular);
  }
 
+ /*font size*/
  .fs-primary-heading {
      font-size: var(--fs-primary-heading);
  }
@@ -172,7 +175,18 @@
      font-size: var(--fs-secondary-heading);
  }
 
- .fs-300{font-size: var(--fs-300);}
- .fs-400{font-size: var(--fs-400);}
- .fs-500{font-size: var(--fs-500);}
- .fs-600{font-size: var(--fs-600);}
+ .fs-300 {
+     font-size: var(--fs-300);
+ }
+
+ .fs-400 {
+     font-size: var(--fs-400);
+ }
+
+ .fs-500 {
+     font-size: var(--fs-500);
+ }
+
+ .fs-600 {
+     font-size: var(--fs-600);
+ }

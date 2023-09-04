@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
@@ -12,7 +12,124 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <header class="primary-header">
+        <div class="container">
+            <a href="#"><img src="images/logo.svg" alt="logo img"></a>
+
+            <nav class="primary-navigation">
+                <ul role="list" class="nav-list">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+
+            <button class="button">Get Started</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div>
+
+                    <hi class="fs-primary-heading fw-bold">Bring everything together</hi>
+                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptate iste eaque sequi earum
+                        exercitationem laudantium quod inventore voluptatum ea corrupti, blanditiis hic libero iusto ad
+                        autem, aspernatur veritatis voluptatem?</p1>
+                    <button class="button">Get Started</button>
+                </div>
+                <div>
+                    <img src="images/illustration-intro.svg" alt="graphic info">
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="even-columns">
+                    <h2 class="fs-secondary-heading fw-bold">What is different?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+                    <ul class="numbered-items" role="list">
+                        <li>
+                            <h3 class="fs-600 fw-bold">Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia molestiae
+                                dolorum, pariatur nihil a.</p>
+                        </li>
+                        <li>
+                            <h3 class="fs-600 fw-bold">Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia molestiae
+                                dolorum, pariatur nihil a.</p>
+                        </li>
+                        <li>
+                            <h3 class="fs-600 fw-bold">Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia molestiae
+                                dolorum, pariatur nihil a.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel">
+            <h2 class="fs-secondary-heading">Lorem ipsum dolor sit.</h2>
+            <button class="button">Get Started</button>
+        </section>
+
+        <section class="cta | bg-primary-400 text-neutral-100">
+            <div class="container">
+                <div class="even-columns">
+                    <p class="fs-secondary-heading fw-bold">Lorem ipsum dolor sit amet.</p>
+                    <div><button class="button" data-type="inverted">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-neutral-900 text-neutral-100">
+        <div class="container">
+            <div class="even-columns">
+                <div>
+                    <a href="#"><img src="images/logo.svg" alt="logo img"></a>
+                    <ul role="list" aria-label="Social links">
+                        <ul><a aria-label="facebook" href="#"></a></ul>
+                        <ul><a aria-label="youtube" href="#"></a></ul>
+                        <ul><a aria-label="twitter" href="#"></a></ul>
+                        <ul><a aria-label="pinterest" href="#"></a></ul>
+                        <ul><a aria-label="instagram" href="#"></a></ul>
+                    </ul>
+                </div>
+                <div>
+                    <nav class="footer-nav">
+                        <ul aria-label="Footer" role="list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <form action="">
+                        <input type="email"><button class="button">Go</button>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>
